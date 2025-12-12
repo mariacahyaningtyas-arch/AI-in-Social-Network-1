@@ -9,7 +9,6 @@
 
 ## 🚀 Kelompok 2
 
-|  |  |
 | :--- | :--- |
 | **Alya Rena Azzahra** | M0125006 |
 | **Jessica Allia Faaiza Hesgita** | M0125017 |
