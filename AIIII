@@ -23,3 +23,10 @@ model.fit(X_train, y_train)
 
 print("Model Machine Learning berhasil dilatih!")
 
+import pandas as pd
+from model import model   # import model yang sudah dilatih
+
+def cek_video_populer(views, likes):
+    input_df = pd.DataFrame({"views": [views], "likes": [likes]})
+    pred = model.predict(input_df)[0]
+    return "Populer" if pred == 1 else "Tidak Populer"
