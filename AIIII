@@ -45,7 +45,6 @@ def cek_video_populer(views, likes):
     pred = model.predict(input_df)[0]
     return "Populer" if pred == 1 else "Tidak Populer"
 
-
 # ===============================
 # 5. INPUT PENGGUNA
 # ===============================
@@ -65,4 +64,4 @@ try:
     print("============================\n")
 
 except ValueError:
-    print("Input tidak valid. Masukkan angka saja.")
+    print("Input tidak valid. Masukkan angka saja.")
