@@ -1,0 +1,25 @@
+# ====================================================
+# 1. Import library
+# ====================================================
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import classification_report, accuracy_score
+
+# ====================================================
+# 2. Buat dataset contoh (views & likes)
+# ====================================================
+
+data = {
+    "views": [1500000, 800000, 2000000, 3000000, 900000, 2500000, 700000, 1200000],
+    "likes": [300000, 100000, 50000, 500000, 150000, 350000, 80000, 210000],
+    "label": ["populer", "tidak", "tidak", "populer", "tidak", "populer", "tidak", "populer"]
+}
+
+df = pd.DataFrame(data)
+
+# ====================================================
+# 3. Fitur & label
+# ====================================================
+X = df[["views", "likes"]]
+y = df["label"]
