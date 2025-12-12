@@ -44,3 +44,24 @@ def cek_video_populer(views, likes):
     input_df = pd.DataFrame({"views": [views], "likes": [likes]})
     pred = model.predict(input_df)[0]
     return "Populer" if pred == 1 else "Tidak Populer"
+
+# ===============================
+# 5. INPUT PENGGUNA
+# ===============================
+
+try:
+    views_input = int(input("Masukkan jumlah views: "))
+    likes_input = int(input("Masukkan jumlah likes: "))
+
+    hasil = cek_video_populer(views_input, likes_input)
+
+    print("\n============================")
+    print("HASIL PREDIKSI VIDEO")
+    print("============================")
+    print(f"Views  : {views_input}")
+    print(f"Likes  : {likes_input}")
+    print(f"Kategori Video : {hasil}")
+    print("============================\n")
+
+except ValueError:
+    print("Input tidak valid. Masukkan angka saja.")
