@@ -10,9 +10,9 @@
 
 | Nama | NIM  |
 | :--- | :--- |
-| **Alya Rena Azzahra** | M0125006 |
-| **Jessica Allia Faaiza Hesgita** | M0125017 |
-| **Maria Cahyaningtyas** | M0125020 |
+| Alya Rena Azzahra | M0125006 |
+| Jessica Allia Faaiza Hesgita | M0125017 |
+| Maria Cahyaningtyas | M0125020 |
 
 ---
 
@@ -29,8 +29,12 @@ Proyek ini mengimplementasikan algoritma **Regresi Logistik** (Logistic Regressi
 ---
 
 ## 📤 Struktur Proyek
-1. video_popularity_predictor.py (File utama program yang berisi kode ML)
-2. README.md
+1. File utama program yang berisi kode ML
+   ``` bash
+   AIIII
+2. Dokumentasi proyek
+   ```bash
+   README.md
 
 ---
 
