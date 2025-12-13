@@ -93,3 +93,9 @@ Model dilatih menggunakan dataset kecil berikut yang didefinisikan dalam kode:
 5. Buka Pull Request ke main branch.
 Terima kasih atas kontribusi Anda!
 
+---
+
+Pastikan Anda telah menginstal pustaka Python berikut. Anda dapat menginstalnya menggunakan `pip`:
+
+```bash
+pip install pandas scikit-learn
