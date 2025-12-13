@@ -32,7 +32,10 @@ Proyek ini mengimplementasikan algoritma **Regresi Logistik** (Logistic Regressi
 1. video_popularity_predictor.py (File utama program yang berisi kode ML)
 2. README.md
 
+---
+
 ## ⚙️ Cara Menjalankan
+
 1. Akses Folder: Pindah ke direktori proyek di terminal Anda:
     ``` bash
     cd [nama-folder-proyek]
@@ -53,8 +56,11 @@ Proyek ini mengimplementasikan algoritma **Regresi Logistik** (Logistic Regressi
     Likes  : 350000
     Kategori Video : Populer
     ============================
+   
+---
 
 ## 📝 Dataset Latihan
+
 Model dilatih menggunakan dataset kecil berikut yang didefinisikan dalam kode:
 | Views | Likes  | Label (0=Tidak Populer, 1=Populer) |
 | :--- | :--- | :--- |
@@ -68,6 +74,7 @@ Model dilatih menggunakan dataset kecil berikut yang didefinisikan dalam kode:
 | 2.500.000 | 400.000 | 1 |
 
 ## ✍️ Kontribusi
+
    Kami sangat menghargai kontribusi dari siapa pun! Jika Anda memiliki saran perbaikan, penambahan fitur (misalnya, menambahkan fitur 'comment count'), atau menemukan bug, silakan ikuti alur kontribusi standar GitHub: 
 1. Fork repositori ini.
 2. Buat branch baru 
